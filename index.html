@@ -22,10 +22,15 @@
           <li><a href="blog.html">Blog</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li>
-            <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+          <li id="lg-bag">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
           </li>
+          <a id="close"><i class="fa-solid fa-xmark"></i></a>
         </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fa-solid fa-bars"></i>
       </div>
     </section>
 
@@ -388,16 +393,75 @@
     </section>
 
     <section id="newsletter" class="section-p1 section-m1">
+      <div id="newsText">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers.</span>
+        </p>
+      </div>
 
-        <div id="newsText">
-            <h4>Sign Up For Newsletters</h4>
-            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
-        </div>
-
-        <div class="form">
-            <input type="text" placeholder="Your Email Address">
-            <button class="normal">Sign Up</button>
-        </div>
+      <div class="form">
+        <input type="text" placeholder="Your Email Address" />
+        <button class="normal">Sign Up</button>
+      </div>
     </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img src="img/logo.png" alt="Logo Image" class="logo" />
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> Ocoee, FL, USA</p>
+        <p><strong>Phone:</strong> +1 123-456-7890</p>
+        <p><strong>Hours:</strong> 10:00 AM - 6:00 PM EST, Mon - Fri</p>
+
+        <div class="follow">
+          <h4>Follow Us</h4>
+
+          <div class="icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Contact us</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Pay</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" alt="Download from App Store Image" />
+          <img src="img/pay/play.jpg" alt="Download from Google Play Image" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="img/pay/pay.png" alt="Secured Forms of Payment Image" />
+      </div>
+
+      <div class="copyright">
+        <p>© 2022, Rudy Gutierrez - E-Commerce Website</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
