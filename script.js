@@ -16,3 +16,8 @@ if(close){
     })
 }
 
+
+
+let mainImg = document.querySelector('#MainImg');
+let smallImg = document.querySelector('.small-img');
+
