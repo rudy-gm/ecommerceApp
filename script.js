@@ -21,3 +21,8 @@ if(close){
 let mainImg = document.querySelector('#MainImg');
 let smallImg = document.querySelector('.small-img');
 
+
+function changeImg (value){
+    
+    mainImg.src = `./img/products/f${value}.jpg`;
+}
